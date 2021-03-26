@@ -1,3 +1,7 @@
+CMD
+Change dir to d: 
+D: 
+
 part 1
 
 Go to ur directory

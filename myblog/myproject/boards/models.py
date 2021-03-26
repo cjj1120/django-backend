@@ -8,7 +8,7 @@ from django.conf import settings
 
 #models.Model means that the Post is a Django Model, so Django knows that it should be saved in the database.
 class Post(models.Model):
-    author = models.ForeignKey(setting.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200) 
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)

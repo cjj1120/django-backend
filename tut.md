@@ -37,3 +37,8 @@ django-admin startapp boards
 Part 2 
 
 
+DjangoGirls: 
+to create database: 
+python manage.py migrate '
+
+Continue with: Create tables for models in your database

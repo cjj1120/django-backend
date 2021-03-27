@@ -37,8 +37,12 @@ django-admin startapp boards
 Part 2 
 
 
-DjangoGirls: 
-to create database: 
-python manage.py migrate '
+                                                DjangoGirls: 
 
-Continue with: Create tables for models in your database
+
+    PART: Create Tables for models in your database 
+URL: https://tutorial.djangogirls.org/en/django_models/
+Error: in models.py, setting changed to settings 
+
+CODE:   python manage.py makemigrations boards  (author used blog instead of boards)
+        python manage.py migrate boards

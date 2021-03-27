@@ -46,3 +46,5 @@ Error: in models.py, setting changed to settings
 
 CODE:   python manage.py makemigrations boards  (author used blog instead of boards)
         python manage.py migrate boards
+
+Continue: Django URLs

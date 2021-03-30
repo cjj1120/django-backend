@@ -22,6 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls), 
     #navigate by adding /blog at the end of the URL 
     path('blog/', views.home, name='blog-home'), 
-    path('about/', views.about, name='blog-about')
-    # path('', include('myproject.urls')),
+    path('about/', views.about, name='blog-about'),
+    path('', include('boards.urls')),
 ]

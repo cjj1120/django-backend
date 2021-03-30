@@ -4,6 +4,9 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.home, name='blog-home'),
+    # path('', views.home, name='blog-home'),
+    
+    #Djangogirls: 
+    path('', views.post_list, name='post_list'),
 
 ]

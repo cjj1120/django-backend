@@ -36,6 +36,12 @@ django-admin startapp boards
 
 Part 2 
 
+Was facing some problem when I was doing the youtube tutorial, realized the solution is pretty 
+straight forward in fact: 
+uncle Urls.py: 
+    path('', include('boards.urls')),
+
+
 
                                                 DjangoGirls: 
 

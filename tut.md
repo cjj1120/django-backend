@@ -53,4 +53,9 @@ Error: in models.py, setting changed to settings
 CODE:   python manage.py makemigrations boards  (author used blog instead of boards)
         python manage.py migrate boards
 
-Continue: Django URLs
+    PART: Django ORM and QuerySets 
+URL: https://tutorial.djangogirls.org/en/django_orm/
+
+
+TO enter Django interactive console, go to manage.py location: 
+CODE: python manage.py shell

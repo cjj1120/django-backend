@@ -6,17 +6,17 @@ part 1
 
 Go to ur directory
 
-Create virtual env:
+    CREATE virtual env:
 
 virtualenv venv
 
-To activate:
+    To activate:
 
 First locate: C:\Users\User\Py-Development\myproject
 
 venv\Scripts\activate
 
-To disactivate:
+    To disactivate:
 
 venv\Scripts\deactivate.bat
 
@@ -24,9 +24,7 @@ Start django project:
 
 django-admin startproject myproject
 
-To run the site: 
-
-Locate the mange.py and test it by running:
+    To RUN the site:Locate the mange.py and test it by running:
 
 python manage.py runserver
 
